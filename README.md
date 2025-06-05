@@ -26,7 +26,7 @@ A cross-platform global hotkey launcher that maps key combos to actions like she
 2. Clone and build:
 
  ```bash
- git clone https://github.com/yourusername/nunchucks.git
+ git clone https://github.com/TFMV/nunchucks.git
  cd nunchucks
  cargo build --release
  ```
