@@ -1,0 +1,37 @@
+[package]
+name = "nunchucks"
+version = "0.1.0"
+edition = "2021"
+authors = ["Thomas McGeehan"]
+description = "A cross-platform global hotkey launcher that maps key combos to actions"
+
+[dependencies]
+# Core dependencies
+tokio = { version = "1.36", features = ["full"] }
+anyhow = "1.0"
+thiserror = "1.0"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+
+# Configuration
+toml = "0.8"
+serde = { version = "1.0", features = ["derive"] }
+validator = { version = "0.16", features = ["derive"] }
+
+# Hotkey handling
+device_query = "1.1"
+
+# Sound and effects
+rodio = "0.17"
+
+# Notifications
+notify-rust = "4.10"
+
+# HTTP requests
+reqwest = { version = "0.11", features = ["json"] }
+
+# Terminal UI
+crossterm = "0.27"
+
+[dev-dependencies]
+tokio-test = "0.4"
