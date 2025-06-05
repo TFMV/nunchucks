@@ -60,7 +60,7 @@ A cross-platform global hotkey launcher that maps key combos to actions like she
 ```toml
 [chucks.launch_server]
 keys = ["Cmd+Shift+L"]
-command = "cd ~/dev/myapp && ./start.sh"
+command = "cd ~/dev/app && ./start.sh"
 sound = "sfx/hii-ya.wav"
 ascii = "ascii/flame.txt"
 notification = "🔥 Server launched!"
