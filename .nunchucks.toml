@@ -1,0 +1,13 @@
+[settings]
+log_level = "info"
+daemon_mode = true
+notification_timeout = 2000
+
+[chucks.test_command]
+keys = ["LControl", "LShift", "T"]
+command = "echo 'Test command executed!'"
+notification = "🧪 Test command executed!"
+sound = "assets/sfx/hii-ya.wav"
+ascii = "assets/ascii/ninja.txt"
+timeout = 5000
+retry_count = 3
